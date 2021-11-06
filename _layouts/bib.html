@@ -2,7 +2,10 @@
 ---
 
 <div class="row">
-  <div class="col-sm-2 abbr">
+  <div class="col-sm-4">
+  {% if entry.img %}
+    <img class="img-fluid" src="{{ entry.img | prepend: '/assets/img/' | relative_url }}" />
+  {% endif %}
   {% if entry.abbr %}
     {% if site.data.venues[entry.abbr] %}
     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}">{{entry.abbr}}</a></abbr>
@@ -95,6 +98,9 @@
     {% if entry.html %}
       <a href="{{ entry.html }}" class="btn btn-sm z-depth-0" role="button">HTML</a>
     {% endif %}
+    {% if entry.code %}
+      <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
+    {% endif %}
     {% if entry.pdf %}
       {% if entry.pdf contains '://' %}
       <a href="{{ entry.pdf }}" class="btn btn-sm z-depth-0" role="button">PDF</a>
@@ -111,9 +117,6 @@
     {% endif %}
     {% if entry.blog %}
       <a href="{{ entry.blog }}" class="btn btn-sm z-depth-0" role="button">Blog</a>
-    {% endif %}
-    {% if entry.code %}
-      <a href="{{ entry.code }}" class="btn btn-sm z-depth-0" role="button">Code</a>
     {% endif %}
     {% if entry.poster %}
       {% if entry.poster contains '://' %}

@@ -24,9 +24,16 @@
 
 // Profile
 .profile {
+  overflow: hidden;
+  box-shadow: 0 0 5px #828282;
+
   img {
     width: 100%;
+    transform: scale(1.2);
+    transform-origin: 99% 65%;
   }
+
+  margin-bottom: 1rem;
 }
 
 // TODO: redefine content layout.

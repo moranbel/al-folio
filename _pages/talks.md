@@ -1,8 +1,7 @@
 ---
 layout: page
-permalink: /#publications
-title: Publications
-years: [2016, 2020, 2021]
+permalink: /#talks
+title: Talks
 nav: true
 ---
 

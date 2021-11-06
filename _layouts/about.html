@@ -30,24 +30,39 @@ layout: default
 
     <div class="clearfix">
       {{ content }}
-    </div>
-
-    {% if page.news %}
-      {% include news.html %}
-    {% endif %}
-
-    {% if page.selected_papers %}
-      {% include selected_papers.html %}
-    {% endif %}
-
-    {% if page.social %}
-    <div class="social">
-      <div class="contact-icons">
-        {% include social.html %}
+      {% if page.social %}
+      <div class="social">
+        <div class="contact-icons">
+          {% include social.html %}
+        </div>
+        <div class="contact-note">{{ site.contact_note }}</div>
       </div>
-      <div class="contact-note">{{ site.contact_note }}</div>
+      {% endif %}
     </div>
+
+    <div class="space">
+      {% if page.selected_papers %}
+        {% include selected_papers.html %}
+      {% endif %}
+    </div>
+
+    {% if page.projects %}
+      <div class="blogs space" id="blogs">
+        <h2>Blogs</h2>
+        <div class="row">
+          {% for project in site.projects %}
+            {% include projects.html %}
+          {% endfor %}
+        </div>
+      </div>
     {% endif %}
+
+    <div class="space">
+      {% if page.news %}
+        {% include news.html %}
+      {% endif %}
+    </div>
+
   </article>
 
 </div>

@@ -1,7 +1,9 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2021-03-8 
 inline: true
 ---
 
-A simple inline announcement.
+Women in Data Science Conference - WiDS TLV. 
+<a href="https://www.youtube.com/watch?v=PEA5CTbPJAI&ab_channel=IntuitIsrael"> "Harnessing Data to Improve Healthcare". </a>
+

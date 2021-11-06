@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: tdGraphEmbed- Temporal Dynamic Graph-Level Embedding
+description: Using NLP methods to represent a sequence of temporal graphs
+img: assets/img/1_Tn084q1JqJ2yLrvcRwKQdA.jpeg
+importance: 2
 category: work
+redirect: https://towardsdatascience.com/tdgraphembed-temporal-dynamic-graph-level-embedding-1cc611bc7db0
 ---
 
 Every project has a beautiful feature showcase page.

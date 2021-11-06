@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
+title: NLP- Splitting Text into Sentences
+description: Language agnostic model for transforming text into sentences
+img: assets/img/1_OjK0I3yl04ZU_JD94LQpHw.png
+importance: 2
 category: work
+redirect: https://towardsdatascience.com/nlp-splitting-text-into-sentences-7bbce222ef17
 ---
 
 Every project has a beautiful feature showcase page.

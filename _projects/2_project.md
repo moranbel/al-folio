@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: assets/img/3.jpg
+title: Trending Topics in Reddit during USA 2020 Elections
+description: Finding real events in reddit dataset using topic modeling and time-series analysis
+img: assets/img/1_btctcPhFSqOsDOl6qnlbAQ.png
 importance: 2
 category: work
+redirect: https://towardsdatascience.com/trending-topics-in-reddit-during-usa-2020-elections-8b25dd4fede9
 ---
 
 Every project has a beautiful feature showcase page.
